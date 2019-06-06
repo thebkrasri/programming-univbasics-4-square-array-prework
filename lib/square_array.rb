@@ -3,5 +3,6 @@ def square_array(array)
   while i < array.length do
     array[i] = array[i]**2
     i += 1
+    return array
   end
 end
